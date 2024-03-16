@@ -1,0 +1,56 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    max-width: 50rem;
+    margin: 5rem 5rem;
+}
+
+.formActions {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    column-gap: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+.save {
+    background-color: black !important;
+    color: aliceblue;
+    border-radius: 0.5rem;
+    width: 7rem;
+    height: 3rem;
+}
+
+.formControl{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0px;
+    font-size: 1.2rem;
+}
+.formControl label{
+    font-weight: 600;
+    color: rgb(124, 121, 121);
+}
+
+.formControl input{
+    background-color: rgb(230, 229, 228);
+    height: 3rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    color: rgb(96, 95, 95);
+}
+
+.formControl textarea{
+    background-color: rgb(230, 229, 228);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    color: rgb(96, 95, 95);
+}
+
+.formControl input:focus, textarea:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(124, 121, 121);
+}
+

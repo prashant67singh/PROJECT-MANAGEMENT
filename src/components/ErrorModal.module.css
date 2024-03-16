@@ -1,0 +1,42 @@
+::backdrop {
+    background-image: linear-gradient(
+      45deg,
+      rgb(119, 120, 121),
+      rgb(130, 132, 130)
+    );
+    opacity: 0.75;
+  }
+  .dialogBox {
+    width: 40%;
+    height: 30%;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+  }
+
+  .errorContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+
+  .errorContent h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem;
+  }
+
+  .errorContent p{
+    font-size:1rem;
+  }
+
+  .errorContent button{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 75, 75);
+    width: 30%;
+    border-radius: 0.5rem;
+    margin: 1rem;
+  }

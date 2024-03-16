@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  height: 100vh;
+  max-width: 30em;
+  width: 30em;
+  margin-top: 3rem;
+  background-color: rgb(10, 10, 10);
+  border-radius: 0px 0.75rem 0px 0px;
+  color: rgb(230, 232, 234);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 2rem;
+}
+
+.sidebar h1{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 5rem;
+}
+
+.sidebar > button{
+  font-size: 1rem;
+  background-color: rgb(95, 96, 97);
+  color: rgb(176, 175, 175);
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.50rem;
+}
+
+.sidebar ul{
+  list-style: none;
+
+}
+
+.sidebar li{
+  background: #3b3a3a;
+  color: rgb(214, 212, 212);
+  margin: 1rem;
+  width: 18rem;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+}

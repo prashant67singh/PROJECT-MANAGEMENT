@@ -1,0 +1,39 @@
+.noProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  width: 50rem;
+  max-width: 50rem;
+  row-gap: 1rem;
+  margin: 5rem 5rem;
+}
+.noProject img {
+  height: 8rem;
+  width: 8rem;
+  margin-top: 3rem;
+}
+
+.noProject h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 3rem;
+  color: rgb(105, 101, 101);
+}
+
+.noProject p {
+    color: rgb(130, 114, 98);
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.noProject button{
+    background-color: rgb(55, 52, 52);
+    color:rgb(186, 186, 183);
+    width: 16rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
