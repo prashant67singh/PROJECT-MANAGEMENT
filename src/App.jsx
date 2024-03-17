@@ -7,18 +7,18 @@ import AddProject from "./components/AddProject";
 import ErrorModal from "./components/ErrorModal";
 
 const projectObj = [
-  // {
-  //   title: "Learn Node",
-  //   dueDate: "Dec 29, 2024",
-  //   description: "Learn Node from basics",
-  //   task: ["Learn the basics"],
-  // },
-  // {
-  //   title: "Learn React",
-  //   dueDate: "Dec 29, 2024",
-  //   description: "Learn React from basics",
-  //   task: ["Learn the basics of react", "Solve problem"],
-  // },
+  {
+    title: "Learn Node",
+    dueDate: "Dec 29, 2024",
+    description: "Learn Node from basics",
+    task: ["Learn the basics"],
+  },
+  {
+    title: "Learn React",
+    dueDate: "Dec 29, 2024",
+    description: "Learn React from basics",
+    task: ["Learn the basics of react", "Solve problem"],
+  },
 ];
 function App() {
   const [projects, setProjects] = useState(projectObj);
